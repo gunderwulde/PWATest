@@ -1,0 +1,21 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo degradado -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo con esquinas redondeadas -->
+  <rect width="512" height="512" rx="112" fill="url(#grad2)"/>
+  
+  <!-- Círculo central -->
+  <circle cx="256" cy="256" r="160" fill="#ffffff" opacity="0.95"/>
+  
+  <!-- Letra P -->
+  <text x="256" y="330" font-family="Arial, sans-serif" font-size="190" font-weight="bold" fill="#667eea" text-anchor="middle">P</text>
+  
+  <!-- Subtítulo -->
+  <text x="256" y="390" font-family="Arial, sans-serif" font-size="42" fill="#ffffff" text-anchor="middle" opacity="0.9">PWA</text>
+</svg>
